@@ -1,0 +1,154 @@
+{
+  "@@locale": "en",
+  "appTitle": "YET Driver",
+  "consentTitle": "Location & motion data consent",
+  "consentBody": "YET tracks your phone's location and motion so your fleet manager can see where the shipment is. This phone is the only tracker — when you walk away with it, the truck's live position stops updating.",
+  "consentCollectHeading": "What we collect",
+  "consentCollectBody": "GPS location during trips, movement sensor data (accelerometer/gyroscope). Audio is NEVER collected.",
+  "consentWhoHeading": "Who sees it",
+  "consentWhoBody": "Only your assigned fleet manager. Data is stored on servers inside Ethiopia under Ethiopian law (Proclamation No. 1321/2024).",
+  "consentRetentionHeading": "How long we keep it",
+  "consentRetentionBody": "Detailed location history for 90 days, then reduced to trip summaries. You can request deletion at any time; we complete it within 30 days.",
+  "consentAgree": "I agree — start using YET",
+  "consentDecline": "Do not agree",
+  "consentDeclinedBody": "Without consent YET cannot collect any data and will not run. You may change this decision later in Settings.",
+  "permTitle": "Permissions needed",
+  "permLocationBody": "YET needs location access 'All the time' because tracking must continue while the app is closed and you are driving.",
+  "permBatteryBody": "Please allow YET to ignore battery optimization. Android would otherwise stop tracking after a few minutes and your trip data would be lost.",
+  "permContinue": "Open phone settings",
+  "permDone": "I have set the permissions",
+  "tripReadyTitle": "Ready to drive",
+  "startTrip": "START TRIP",
+  "endTrip": "END TRIP",
+  "pendingSync": "{count} records pending sync",
+  "@pendingSync": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "offlineBanner": "Offline — recording locally, will upload automatically",
+  "languageToggle": "አማርኛ",
+  "storageWarning": "Storage is almost full ({percent}%). Sync will prioritize GPS fixes.",
+  "syncBacklogZero": "All fixes synced",
+  "tripVehicleNone": "No truck assigned — call your fleet manager",
+  "tripStartConfirm": "Trip started for {vehicle}",
+  "@tripStartConfirm": {
+    "placeholders": {
+      "vehicle": {
+        "type": "String"
+      }
+    }
+  },
+  "feedbackTitle": "Report a problem",
+  "feedbackIntro": "Tap the problem you are seeing. YET sends a small diagnostic message to your fleet manager.",
+  "feedbackGps": "GPS not working",
+  "feedbackBattery": "App draining battery",
+  "feedbackSync": "Data not uploading",
+  "feedbackOther": "Something else",
+  "feedbackSend": "Send report",
+  "feedbackSent": "Report sent. Thank you!",
+  "feedbackFailed": "Could not send — will retry when you have signal",
+  "offlineMapTitle": "Offline maps",
+  "offlineMapBody": "Download maps for the pilot region before departing. Works without signal later.",
+  "offlineMapStart": "Download maps now",
+  "offlineMapProgress": "Downloading maps: {done} of {total}",
+  "@offlineMapProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "offlineMapDone": "Offline maps ready ({downloaded} new, {failed} failed)",
+  "@offlineMapDone": {
+    "placeholders": {
+      "downloaded": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "offlineMapAttribution": "Map tiles © YET self-hosted tiles, based on OpenStreetMap data © OpenStreetMap contributors",
+  "offlineMapNoTiles": "No cached map tiles yet — download maps before dropping a pin",
+  "tripGreeting": "Hello, driver",
+  "tripStatusReady": "Ready — tap to start tracking",
+  "tripStatusTracking": "Trip in progress — keep driving",
+  "syncRecordsPending": "{count} records pending sync",
+  "syncAllSynced": "All records synced",
+  "consentIntro": "Before you drive, YET needs your permission. Everything below is written in plain language — no fine print.",
+  "consentCardAudio": "Audio is never collected",
+  "permIntro": "Two phone settings keep your trip data complete. Set them once — the app works automatically after that.",
+  "permLocationHeading": "Location: \"All the time\"",
+  "permBatteryHeading": "Ignore battery optimization",
+  "permSkipHint": "Already set? Tap the green button below.",
+  "feedbackChoose": "What is going wrong?",
+  "offlineMapHeading": "Pilot region maps",
+  "offlineMapProgressHeading": "Download progress",
+  "notifTripStartedTitle": "Trip started",
+  "notifTripEndedTitle": "Trip ended",
+  "notifSeparationTitle": "Driver separation alert",
+  "notifGeofenceEnterTitle": "Entered zone",
+  "notifGeofenceExitTitle": "Left zone",
+  "notifBannerFallback": "Fleet notification",
+  "notifBannerDismiss": "Dismiss",
+  "obPhoneTitle": "Enter your phone number",
+  "obPhoneBody": "Your phone number is your account. No password — ever.",
+  "obPhoneHint": "e.g. 0911234567 or +251911234567",
+  "obSendCode": "Send code",
+  "obCodeSent": "A 6-digit code was sent by SMS.",
+  "obDevCodeBanner": "Dev mode: your code is {code}",
+  "@obDevCodeBanner": {
+    "placeholders": {
+      "code": {}
+    }
+  },
+  "obVerifyCode": "Verify code",
+  "obResendCode": "Send a new code",
+  "obOtpInvalid": "Wrong or expired code. Try again.",
+  "obRateLimited": "Too many attempts. Please wait 15 minutes.",
+  "obFormTitle": "Registration — one time only",
+  "obPersonalHeading": "About you",
+  "obFullName": "Full name",
+  "obLicenseNumber": "Driving license number",
+  "obLicenseClass": "License class (optional)",
+  "obLicenseExpiry": "License expiry date (optional, YYYY-MM-DD)",
+  "obAssociation": "Truck association (optional)",
+  "obHomeBase": "Home base city (optional)",
+  "obVehicleHeading": "Your truck",
+  "obPlateNumber": "Truck plate number",
+  "obTruckType": "Truck type",
+  "obMakeModel": "Make / model (optional)",
+  "obCapacityTons": "Capacity in tons (optional)",
+  "obBodyType": "Bed type (high bed, low bed...)",
+  "obOwnership": "Do you own the truck?",
+  "obTrailerHeading": "Trailers (optional)",
+  "obTrailerPlate": "Trailer plate number",
+  "obAddTrailer": "Add another trailer",
+  "obSubmitRegister": "Complete registration",
+  "obRequiredFields": "Name, license number and truck plate are required.",
+  "obDocsTitle": "Upload your documents",
+  "obLicenseDocMandatory": "Driving license photo - REQUIRED",
+  "obTakePhoto": "Take photo / choose file",
+  "obUploaded": "Uploaded - waiting for review",
+  "obUploadFailed": "Upload failed. Check network and try again.",
+  "obSkipOptionalDocs": "Skip for now",
+  "obPendingTitle": "Waiting for approval",
+  "obPendingBody": "Your registration was received. A fleet manager will verify your documents and assign your truck. You will stay logged in on this phone.",
+  "obRefreshApp": "Check status",
+  "obSuspendedTitle": "Account on hold",
+  "obSuspendedBody": "Your account was paused by your fleet manager. Contact them to reactivate it.",
+  "obRepairsTitle": "Re-pair this phone",
+  "obRepairsBody": "Enter the code sent to your phone to restore your session. Your data stays intact.",
+  "obProfileTitle": "My profile",
+  "obChangeTruck": "I changed truck",
+  "obSaveChanges": "Save changes",
+  "obSignOutDevice": "Sign out of this phone",
+  "obNetworkError": "No network. Try again when signal returns."
+}

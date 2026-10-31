@@ -1,0 +1,154 @@
+{
+  "@@locale": "am",
+  "appTitle": "የዳራፊ መተግበሪያ",
+  "consentTitle": "የአቀማመጥ እና የእንቅስቃሴ መረጃ ፈቃድ",
+  "consentBody": "ዒት የስልክዎን አቀማመጥ እና እንቅስቃሴ ይከታተላል፤ የአውቶሞብሊዮን ኃላፊዎ ጭነቱ የት እንዳለ ለማየት። ይህ ስልክ ብቸኛው ክትትል መሣሪያ ነው — ስልክዎን ይዘው ሲሄዱ የተሽከርካሪው ቀጥታ አቀማመጥ ማሰጠት ያቆማል።",
+  "consentCollectHeading": "ምን እንሰበስባለን",
+  "consentCollectBody": "በጉዞ ወቅት የႷႵስ አቀማመጥ፣ የእንቅስቃሴ ዳሳሽ መረጃ። ኧካምት በአግፓትም አይዅበቅም።",
+  "consentWhoHeading": "ማን ይመለከታል",
+  "consentWhoBody": "የተመደቡለት የአውቶሞብሊዮን ኃላፊ ብቻ። መረጃው በኢትዮጵያ ውስጥ ባሉ ሰርቨሮች ላይ በኢትዮጵያ ሕግ (አዋጅ ቁጥር 1321/2024) ይቀመጣል።",
+  "consentRetentionHeading": "ለምን ያህል ጊዜ እንይዛለን",
+  "consentRetentionBody": "ዝርዝር የአቀማመጥ ታሪክ ለ90 ቀናት፤ ከዚያ ወደ ጉዞ ማጠቃለያ ይቀንሳል። በማንኛውም ጊዜ ማጥፋት ሊጠይቁ ይችላሉ፤ በ30 ቀናት ውስጥ እናጠናቅቃለን።",
+  "consentAgree": "እስማማለሁ — ዒትን ለመጠቀም ጀምር",
+  "consentDecline": "አልስማማም",
+  "consentDeclinedBody": "ያለ ፈቃድ ዒት ምንም መረጃ ሊሰበስብ አይችልም፤ አይሰራም። ውሳኔዎን ከጊዜ በኋላ በቅንብሮች ማስተካከል ይችላሉ።",
+  "permTitle": "ፈቃዶች ያስፈልጋሉ",
+  "permLocationBody": "ዒት 'ሁልጊዜ' የአቀማመጥ ፈቃድ ይጠይቃል — መተግበሪያው ተዘግቶ በመንገድ ላይ ሳሉ ክትትሉ መቀጠል ስላለበት።",
+  "permBatteryBody": "እባክዎ ዒት የባትሪ ማስታረቂያ ማስተካከያ እንዲያልፍ ይፍቀዱ። Android ካልሆነ በስተቀር ከጥቂት ደቂቃዎች በኋላ ክትትሉን አቁሞ የጉዞ መረጃዎ ሊጠፋ ይችላል።",
+  "permContinue": "የስልክ ቅንብሮችን ክፈት",
+  "permDone": "ፈቃዶቹን አስተካክያለሁ",
+  "tripReadyTitle": "ለመንዳት ዝግጁ",
+  "startTrip": "ጉዞ ጀምር",
+  "endTrip": "ጉዞ አብቃ",
+  "pendingSync": "{count} መረጃ ለመላኽ ይጠብቃል",
+  "@pendingSync": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "offlineBanner": "በመስመር ላይ አይደለም — በአካባቢው እየተመዘገበ ራሱ በራሱ ይልካል",
+  "languageToggle": "English",
+  "storageWarning": "ማከማቻው ሙሉ በሙሉ ላይ ነው ({percent}%)። የGPS መረጃ ቅድሚያ ይሰጠዋል።",
+  "syncBacklogZero": "ሁሉም መረጃ ተልኳል",
+  "tripVehicleNone": "ምንም አውቶሞብሊዮ አልተመደበም — የአውቶሞብሊዮን ኃላፊዎን ይደውሉ",
+  "tripStartConfirm": "ለ{vehicle} ጉዞ ተጀምሯል",
+  "feedbackTitle": "ችግርን ያዘጋጁ",
+  "feedbackIntro": "የሚያዩትን ችግር ይንኩ። ዒት ትንሽ የመረጃ ማሳወቂያ ለኃላፊዎ ይልካል።",
+  "feedbackGps": "GPS አይሰራም",
+  "feedbackBattery": "መተግበሪያው ባትሪ እያሟጠቸ ነው",
+  "feedbackSync": "መረጃ አይላኽም",
+  "feedbackOther": "ሌላ ነገር",
+  "feedbackSend": "ዕቅዱን ላክ",
+  "feedbackSent": "ዕቅዱ ተልኳል። እናመሰግናለን!",
+  "feedbackFailed": "መላኽ አልተሳካም — ምልክት ሲያገኙ እንደገና ይሞክራል",
+  "offlineMapTitle": "ያለ መስመር ካርታዎች",
+  "offlineMapBody": "ከመነሳትዎ በፊት ለፈተናው አካባቢ ካርታዎችን ያውርዱ። በኋላ ያለ ምልክት ይሰራል።",
+  "offlineMapStart": "ካርታዎችን አሁን አውርድ",
+  "offlineMapProgress": "ካርታዎች በማውረድ ላይ፦ {done} ከ{total}",
+  "offlineMapDone": "ያለ መስመር ካርታዎች ዝግጁ ({downloaded} አዲስ፣ {failed} ወድቀዋል)",
+  "offlineMapAttribution": "ካርታዎች © YET የራስ-አስተዳደር ታይሎች፣ በOpenStreetMap መረጃ ላይ የተመሰረቱ © OpenStreetMap አበርካቾች",
+  "offlineMapNoTiles": "እስካሁን የተቀመጡ ካርታ ታይሎች የሉም — ምልክት ከማጣትዎ በፊት ካርታዎችን ያውርዱ",
+  "@tripStartConfirm": {
+    "placeholders": {
+      "vehicle": {
+        "type": "String"
+      }
+    }
+  },
+  "@offlineMapProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@offlineMapDone": {
+    "placeholders": {
+      "downloaded": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "tripGreeting": "ሰላም አሽከርካሪ",
+  "tripStatusReady": "ዝግጁ — መከታተል ለመጀመር ይንኩ",
+  "tripStatusTracking": "ጉዞ በሂደት ላይ — መንደው ቀጥሉ",
+  "syncRecordsPending": "{count} መረጃ ለመላኽ ይጠብቃል",
+  "syncAllSynced": "ሁሉም መረጃ ተልኳል",
+  "consentIntro": "ከመንዳትዎ በፊት ዒት ፈቃድዎ ያስፈልገዋል። ከታች ያለው ሁሉ በቅልጥፍና ቋንቋ ተጽፏል — ጥቃቅን ጽሑፍ የለም።",
+  "consentCardAudio": "ድምፅ ለዓለም አይሰበሰብም",
+  "permIntro": "ሁለት የስልክ ቅንብሮች የጉዞ መረጃዎን ሙሉ ለማድረግ ያስፈልጋሉ። አንዴ ያስተካክሉ — ከዚያ በኋላ መተግበሪያው በራሱ ይሰራል።",
+  "permLocationHeading": "አቀማመጥ፦ \"ሁልጊዜ\"",
+  "permBatteryHeading": "የባትሪ ኦፕቲማይዜሽን ይተፉ",
+  "permSkipHint": "አስተካክለዋል? ከታች ያለውን አረንጓዴ ቁልፍ ይንኩ።",
+  "feedbackChoose": "ምን ችግር እያለ ነው?",
+  "offlineMapHeading": "የሙከራ አካባቢ ካርታዎች",
+  "offlineMapProgressHeading": "የማውረድ እድገት",
+  "notifTripStartedTitle": "ጉዞው ጀምሯል",
+  "notifTripEndedTitle": "ጉዞው አልቋል",
+  "notifSeparationTitle": "የአሽከርካሪ መለያየት ማንቂያ",
+  "notifGeofenceEnterTitle": "ወደ ግቢ ገብቷል",
+  "notifGeofenceExitTitle": "ከግቢ ወጥቷል",
+  "notifBannerFallback": "የአደሻ ማሳወቂያ",
+  "notifBannerDismiss": "ዝጋ",
+  "obPhoneTitle": "ስልክ ቁጥርዎን ያስገቡ",
+  "obPhoneBody": "ስልክ ቁጥርዎ መለያዎ ነው። የይለፍ ቃል — ፈጽሞ አይደለም።",
+  "obPhoneHint": "ለምሳሌ 0911234567 ወይም +251911234567",
+  "obSendCode": "ኮድ ላክ",
+  "obCodeSent": "በSMS 6 ቁጥር ያለው ኮድ ተልኳል።",
+  "obDevCodeBanner": "የሙከራ ሁነታ፦ ኮድዎ {code}",
+  "@obDevCodeBanner": {
+    "placeholders": {
+      "code": {}
+    }
+  },
+  "obVerifyCode": "ኮድ አረጋግጥ",
+  "obResendCode": "አዲስ ኮድ ላክ",
+  "obOtpInvalid": "የተሳሳተ ወይም ጊዜው ያለፈ ኮድ። እንደገና ይሞክሩ።",
+  "obRateLimited": "ከመጠን በላይ ሙከራ። እባክዎ 15 ደቂቃ ይጠብቁ።",
+  "obFormTitle": "ምዝገባ — አንድ ጊዜ ብቻ",
+  "obPersonalHeading": "ስለ እርስዎ",
+  "obFullName": "ሙሉ ስም",
+  "obLicenseNumber": "የማሽከርከሪያ ፈቃድ ቁጥር",
+  "obLicenseClass": "የፈቃድ ደረጃ (አማራጭ)",
+  "obLicenseExpiry": "የፈቃድ ጊዜ ማብቂያ (አማራጭ፣ ዓ-ወ-ቀ)",
+  "obAssociation": "የትራንስፖርት ማህበር (አማራጭ)",
+  "obHomeBase": "መነሻ ከተማ (አማራጭ)",
+  "obVehicleHeading": "ከረጢትዎ",
+  "obPlateNumber": "የከረጢት ሰሌዳ ቁጥር",
+  "obTruckType": "የተሽከርካሪ ዓይነት",
+  "obMakeModel": "አምራት / ሞዴል (አማራጭ)",
+  "obCapacityTons": "የመሸከም አቅም በቶን (አማራጭ)",
+  "obBodyType": "የመኛ ዓይነት (ከፍ ያለ፣ ዝቅተኛ...)",
+  "obOwnership": "ከረጢቱ የእርስዎ ነው?",
+  "obTrailerHeading": "ሬሞርኮች (አማራጭ)",
+  "obTrailerPlate": "የሬሞርኮ ሰሌዳ ቁጥር",
+  "obAddTrailer": "ሌላ ሬሞርኮ ጨምር",
+  "obSubmitRegister": "ምዝገባውን ጨርስ",
+  "obRequiredFields": "ስም፣ የፈቃድ ቁጥር እና የሰሌዳ ቁጥር ያስፈልጋሉ።",
+  "obDocsTitle": "ሰነዶችዎን ይስቀሉ",
+  "obLicenseDocMandatory": "የማሽከርከሪያ ፈቃድ ፎቶ — ግዴታ",
+  "obTakePhoto": "ፎቶ ያንሱ / ፋይል ይምረጡ",
+  "obUploaded": "ተስቅሏል — ግምገማ በመጠበቅ ላይ",
+  "obUploadFailed": "መስቀል አልተሳካም። መረብን ያረጋግጡ እና እንደገና ይሞክሩ።",
+  "obSkipOptionalDocs": "ለአሁን ይለፉ",
+  "obPendingTitle": "ፍቃድ በመጠበቅ ላይ",
+  "obPendingBody": "ምዝገባዎ ደርሷል። የፍሊት አስተዳዳሪ ሰነዶችዎን ያረጋግጣል እና ከረጢትዎን ይመድባል። በዚህ ስልክ ላይ ገብተው ይቆያሉ።",
+  "obRefreshApp": "ሁኔታ ያረጋግጡ",
+  "obSuspendedTitle": "መለያ ተሰናክሏል",
+  "obSuspendedBody": "መለያዎ በፍሊት አስተዳዳሪዎ ተቋርጧል። ለማነቃቃት ያግኙት።",
+  "obRepairsTitle": "ይህን ስልክ እንደገና ያያሩ",
+  "obRepairsBody": "በስልክዎ ላይ የተላከውን ኮድ ያስገቡ፤ ውሂብዎ አይጠፋም።",
+  "obProfileTitle": "የእኔ መገለጫ",
+  "obChangeTruck": "ከረጢት ቀየርኩ",
+  "obSaveChanges": "ለውጦችን አስቀምጥ",
+  "obSignOutDevice": "ከዚህ ስልክ ውጣ",
+  "obNetworkError": "መረብ የለም። ምልክት ሲመለስ እንደገና ይሞክሩ።"
+}

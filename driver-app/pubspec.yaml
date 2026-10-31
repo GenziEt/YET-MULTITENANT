@@ -1,0 +1,52 @@
+name: yet_driver
+description: YET driver app — smartphone-based shipment tracking for Ethiopian fleets (Android-first).
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # Phase 1 offline cache + sync worker (Offline Contract §1.8)
+  sqflite: ^2.3.0
+  path_provider: ^2.1.0
+  path: ^1.9.0
+  http: ^1.2.0
+  shared_preferences: ^2.2.0
+  # Module 1 (driver onboarding without login): stable per-install device UUID
+  # used as the pairing credential (features/auth/device_identity.dart).
+  uuid: ^4.4.0
+  # Document uploads for registration (image_picker wraps the native photo
+  # gallery/camera intents; permission handling stays in permissions_screen).
+  image_picker: ^1.1.2
+  # Phase 1 production device plugins — wired by the default main.dart
+  # bootstrap (lib/platform/*.dart): real GPS position source, sensor stream,
+  # battery telemetry, and connectivity-triggered sync (§1.8.1).
+  geolocator: ^12.0.0
+  sensors_plus: ^4.0.2
+  battery_plus: ^6.0.0
+  connectivity_plus: ^6.0.0
+  # Phase 5 push notifications (FCM HTTP v1 backend dispatcher pairs with this):
+  # real token acquisition/rotation + foreground banner stream, wired into the
+  # DEFAULT bootstrap via FirebasePushTokenSource (features/notifications/).
+  # Requires android/app/google-services.json at build time (see PILOT-RUNBOOK);
+  # without it getToken() honestly returns null and registration retries later.
+  firebase_core: ^3.3.0
+  firebase_messaging: ^15.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  # Headless SQLite engine for the test harness (phase1_ingest_pipeline_test /
+  # event_classifier_test drive the REAL sqflite Database API through FFI —
+  # declared explicitly, not relied upon transitively).
+  sqflite_common_ffi: ^2.3.0
+
+flutter:
+  uses-material-design: true
+  generate: true
